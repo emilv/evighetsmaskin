@@ -1,0 +1,27 @@
+# Det är en evighetsmaskin
+
+Maskinen har en skärm som visar hur länge den har varit igång sedan start.
+
+# Design
+
+## Strömförsörjning
+
+Maskinen drivs av en solpanel som laddar en bunt superkondensatorer. Kondensatorerna dimensioneras för att kunna driva maskinen utan ljus i upp till ett dygn. Solpanelen dimensioneras för dubbla strömförsörjningen så att det finns energi över att ladda kondensatorerna.
+
+## Livslängd
+
+### Solpanel
+
+Polykrystallina solpaneler beräknas degradera till ca 80% på 20 år, om de sitter utomhus på tak. De klarar sig betydligt bättre när de är skyddade. Så låt oss lägga på 25% effekt.
+
+### Skärm
+
+OLED har kort livslängd, ca 14000 timmar. Lysdioder används i punktmatriser, 7-segmentsskärmar och bakgrundsbelyst LCD. De har en livslängd på 25000 till 100000 timmar, men det är oklart när de tappat halva ljusstyrkan. LED fungerar längre och lyser starkare kylda. LCD verkar ha en livslängd på omkring 50000 timmar.
+
+Det krävs alltså någon form av viloläge på evighetsmaskinens skärm. Kan den vara avstängd när ingen är i närheten?
+
+# Länkar
+
+* https://www.maximintegrated.com/en/app-notes/index.mvp/id/1883
+* https://en.wikipedia.org/wiki/Light-emitting_diode#Lifetime_and_failure
+* http://www.hpmuseum.org/cgi-sys/cgiwrap/hpmuseum/archv019.cgi?read=157392
