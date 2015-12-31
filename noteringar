@@ -18,10 +18,16 @@ Polykrystallina solpaneler beräknas degradera till ca 80% på 20 år, om de sit
 
 OLED har kort livslängd, ca 14000 timmar. Lysdioder används i punktmatriser, 7-segmentsskärmar och bakgrundsbelyst LCD. De har en livslängd på 25000 till 100000 timmar, men det är oklart när de tappat halva ljusstyrkan. LED fungerar längre och lyser starkare kylda. LCD verkar ha en livslängd på omkring 50000 timmar.
 
-Det krävs alltså någon form av viloläge på evighetsmaskinens skärm. Kan den vara avstängd när ingen är i närheten?
+Det krävs alltså någon form av viloläge på evighetsmaskinens skärm. Kan den vara avstängd när ingen är i närheten? Nej, det förtar syftet. Men LED tål PWM som då kan förlänga livslängden flera gånger om.
 
 # Länkar
 
 * https://www.maximintegrated.com/en/app-notes/index.mvp/id/1883
 * https://en.wikipedia.org/wiki/Light-emitting_diode#Lifetime_and_failure
 * http://www.hpmuseum.org/cgi-sys/cgiwrap/hpmuseum/archv019.cgi?read=157392
+* http://www.lrc.rpi.edu/programs/NLPIP/lightingAnswers/LED/life.asp
+* http://www.lrc.rpi.edu/programs/nlpip/lightinganswers/led/dimmingLampLife.asp
+* http://electronics.stackexchange.com/questions/207233/does-and-when-how-the-lifetime-of-a-led-depend-on-the-pwm-frequency
+* http://www.waitingforfriday.com/index.php/Controlling_LED_brightness_using_PWM
+* http://ams.com/eng/Products/Lighting-Management/LED-Driver-ICs/AS1130
+* http://ams.com/eng/Products/Lighting-Management/LED-Driver-ICs/AS1123
