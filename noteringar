@@ -6,7 +6,25 @@ Maskinen har en skärm som visar hur länge den har varit igång sedan start.
 
 ## Strömförsörjning
 
-Maskinen drivs av en solpanel som laddar en bunt superkondensatorer. Kondensatorerna dimensioneras för att kunna driva maskinen utan ljus i upp till ett dygn. Solpanelen dimensioneras för dubbla strömförsörjningen så att det finns energi över att ladda kondensatorerna.
+Maskinen drivs av en solpanel som laddar en bunt superkondensatorer. Kondensatorerna dimensioneras för att kunna driva maskinen utan ljus i upp till två dygn. Solpanelen dimensioneras för dubbla strömförsörjningen så att det finns energi över att ladda kondensatorerna.
+
+### Kondensatorer
+
+Hur mycket ström som kan tas ut ur fulladdade kondensatorer ges av formeln:
+
+    I = C * U / t
+    C = I*t/U
+
+till exempel
+
+    I = 1.5 Farad * (5-1)V / (2 dagar) = 35 uA
+    C = (300 uA * 2 days)/(5-1)V = 13 F
+
+Kondensatorerna kan sättas parallellt. Då summeras kapacitansen.
+
+### Solpanel
+
+TBD, beräkningar
 
 ## Livslängd
 
@@ -31,3 +49,4 @@ Det krävs alltså någon form av viloläge på evighetsmaskinens skärm. Kan de
 * http://www.waitingforfriday.com/index.php/Controlling_LED_brightness_using_PWM
 * http://ams.com/eng/Products/Lighting-Management/LED-Driver-ICs/AS1130
 * http://ams.com/eng/Products/Lighting-Management/LED-Driver-ICs/AS1123
+* http://www.sensorsmag.com/networking-communications/energy-harvesting/using-a-small-solar-cell-and-a-supercapacitor-a-wireless-sen-7310
