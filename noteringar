@@ -20,7 +20,13 @@ till exempel
     I = 1.5 Farad * (5-1)V / (2 dagar) = 35 uA
     C = (300 uA * 2 days)/(5-1)V = 13 F
 
-Kondensatorerna kan sättas parallellt. Då summeras kapacitansen.
+Kondensatorerna kan sättas parallellt. Då summeras kapacitansen. Sätts de i serie blir kapacitansen istället:
+
+    1/C_tot = 1/C_1 + 1/C_2 + ... + 1/C_n => C/n om alla har samma kapacitans.
+
+#### Läckström
+
+Denna 100F-kondensator läcker hela 280 uA: http://www.robotmesh.com/super-capacitor-100f-2-7v
 
 ### Solpanel
 
